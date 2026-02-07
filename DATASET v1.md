@@ -1,3 +1,4 @@
+```mermaid
 %%{init: {'theme':'dark','themeVariables':{'background':'#071226','primaryColor':'#071a2a','secondaryColor':'#0b2230','tertiaryColor':'#0f2a3b','primaryBorderColor':'#3d43ea','clusterBg':'#072034','clusterBorder':'#3d43ea','primaryTextColor':'#eef6fb','secondaryTextColor':'#eef6fb','lineColor':'#3d43ea','fontFamily':'Segoe UI, Noto Sans, sans-serif','fontSize':'13px'}}}%%
 
 graph TD
@@ -174,3 +175,8 @@ classDef item fill:#071a2a,stroke:#1f4bad,stroke-width:1px,color:#eef6fb;
 
 class D,C,M,R division;
 class D_CITIES,D_FOODS,D_PLACES,D_PEOPLE,C_CITIES,C_FOODS,C_PLACES,C_PEOPLE,M_CITIES,M_FOODS,M_PLACES,M_PEOPLE,R_CITIES,R_FOODS,R_PLACES,R_PEOPLE section;
+
+class D_CITY1,D_F1,D_F2,D_F3,D_F4,D_F5,D_F6,D_F7,D_F8,D_F9,D_P1,D_P2,D_P3,D_P4,D_P5,D_P6,D_P7,D_P8,D_PP1,D_PP2,D_PP3,D_PP4,D_PP5,D_PP6,D_PP7,D_PP8,D_PP9,D_PP10,D_PP11,D_PP12 item;
+class C_CITY1,C_F1,C_F2,C_F3,C_F4,C_F5,C_F6,C_F7,C_F8,C_P1,C_P2,C_P3,C_P4,C_P5,C_P6,C_P7,C_P8,C_PP1,C_PP2,C_PP3,C_PP4,C_PP5,C_PP6,C_PP7,C_PP8 item;
+class M_CITY1,M_F1,M_F2,M_F3,M_F4,M_F5,M_F6,M_F7,M_F8,M_P1,M_P2,M_P3,M_P4,M_P5,M_P6,M_P7,M_P8,M_PP1,M_PP2,M_PP3,M_PP4,M_PP5,M_PP6,M_PP7,M_PP8 item;
+class R_CITY1,R_F1,R_F2,R_F3,R_F4,R_F5,R_F6,R_F7,R_F8,R_P1,R_P2,R_P3,R_P4,R_P5,R_P6,R_P7,R_P8,R_PP1,R_PP2,R_PP3,R_PP4,R_PP5,R_PP6,R_PP7,R_PP8,R_PP9,R_PP10,R_PP11,R_PP12 item;
