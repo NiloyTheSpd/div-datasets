@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
 
 %% =========================
@@ -491,3 +492,4 @@ class Zainul_MYM_Info,Humayun_MYM_Info,SyedNazrul_MYM_Info,AbuSayeed_Info,Shahab
 class RajshahiCity_Info,MangoDishes_Info,Chomchom_Info,Roshogolla_Info,Rasmalai_Info,Kheer_Info,Doi_Raj_Info,Pantua_Info,SilkMango_Info,Langcha_Info infoStyle;
 class VarendraMuseum_Info,Puthia_Info,BaghaMosque_Info,MakhdumShrine_Info,Padma_Info,Paharpur_Info,Kantajew_Info,ChhotoSona_Info infoStyle;
 class Zia_Raj_Info,AliBogra_Info,Pramatha_Info,Mushfiq_Info,Taijul_Info,Tunu_Info,Tipu_Info,BandeAli_Info,Amiya_Info,Andrew_Info,Sharmili_Info,Monjushree_Info infoStyle;
+```

@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
 
 %% =========================
@@ -439,3 +440,4 @@ class Nazrul,Rokeya,Zainul,Tagore,SyedNazrul,Tajuddin,Humayun,Jahanara,FazlurRah
 class Abed,Yunus_CTG,FazlulHuq,SuryaSen,Pritilata,ZiaurRahman,Mahmudullah,Sakib,NasreenJahan,SyedMujtaba person;
 class Zainul_MYM,Humayun_MYM,SyedNazrul_MYM,AbuSayeed,Shahabuddin,Upendra,Sukumar,Leela,Nirmalendu,Helal,Taslima_MYM,Mahmudullah_MYM person;
 class Zia_Raj,AliBogra,Pramatha,Mushfiq,Taijul,Tunu,Tipu,BandeAli,Amiya,Andrew,Sharmili,Monjushree person;
+```
