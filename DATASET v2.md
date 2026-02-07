@@ -1,12 +1,12 @@
 ```mermaid
-%%{init: {'theme':'dark','themeVariables':{'primaryColor':'#0b1020','primaryBorderColor':'#f59e0b','primaryTextColor':'#f8fafc','secondaryColor':'#111827','tertiaryColor':'#0f172a','lineColor':'#f97316','fontFamily':'"Segoe UI", "Noto Sans", sans-serif','fontSize':'12px'},'flowchart':{'curve':'basis','nodeSpacing':80,'rankSpacing':120}}}%%
+%%{init: {'theme':'dark','themeVariables':{'primaryColor':'#0b1020','primaryBorderColor':'#22d3ee','primaryTextColor':'#f8fafc','secondaryColor':'#0f172a','tertiaryColor':'#111827','lineColor':'#38bdf8','fontFamily':'"Segoe UI", "Noto Sans", sans-serif','fontSize':'12px'},'flowchart':{'curve':'basis','nodeSpacing':110,'rankSpacing':160}}}%%
 flowchart LR
-BD["🇧🇩 Bangladesh Cultural Heritage"]
+BD(("🇧🇩 Bangladesh Cultural Heritage"))
 
-BD --> D_Dhaka["📍 Dhaka Division"]
-BD --> D_Chattogram["📍 Chattogram Division"]
-BD --> D_Mymensingh["📍 Mymensingh Division"]
-BD --> D_Rajshahi["📍 Rajshahi Division"]
+BD --> D_Dhaka(("📍 Dhaka Division"))
+BD --> D_Chattogram(("📍 Chattogram Division"))
+BD --> D_Mymensingh(("📍 Mymensingh Division"))
+BD --> D_Rajshahi(("📍 Rajshahi Division"))
 
 D_Dhaka --> Dhaka_Cities["🏙️ Cities"]
 D_Dhaka --> Dhaka_Foods["🍽️ Foods"]
@@ -332,9 +332,5 @@ class RajshahiCity_Info,MangoDishes_Info,Chomchom_Info,Roshogolla_Info,Rasmalai_
 class VarendraMuseum_Info,Puthia_Info,BaghaMosque_Info,MakhdumShrine_Info,Padma_Info,Paharpur_Info,Kantajew_Info,ChhotoSona_Info infoStyle;
 class Zia_Raj_Info,AliBogra_Info,Pramatha_Info,Mushfiq_Info,Taijul_Info,Tunu_Info,Tipu_Info,BandeAli_Info,Amiya_Info,Andrew_Info,Sharmili_Info,Monjushree_Info infoStyle;
 
-linkStyle default stroke:#f97316,stroke-width:2.5px,opacity:0.9;
-```
-
-```
-
+linkStyle default stroke:#38bdf8,stroke-width:2px,opacity:0.7,stroke-dasharray: 3 6;
 ```
